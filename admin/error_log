@@ -1,0 +1,24 @@
+[17-Sep-2024 21:05:26 UTC] PHP Warning:  Undefined variable $pdo in /home/bigracom/bugraa.com/admin/admin.php on line 38
+[17-Sep-2024 21:05:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/bigracom/bugraa.com/admin/admin.php:30
+Stack trace:
+#0 /home/bigracom/bugraa.com/admin/admin.php(38): get_stored_password()
+#1 {main}
+  thrown in /home/bigracom/bugraa.com/admin/admin.php on line 30
+[17-Sep-2024 21:05:33 UTC] PHP Warning:  Undefined variable $pdo in /home/bigracom/bugraa.com/admin/admin.php on line 38
+[17-Sep-2024 21:05:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/bigracom/bugraa.com/admin/admin.php:30
+Stack trace:
+#0 /home/bigracom/bugraa.com/admin/admin.php(38): get_stored_password()
+#1 {main}
+  thrown in /home/bigracom/bugraa.com/admin/admin.php on line 30
+[17-Sep-2024 21:06:56 UTC] PHP Warning:  Undefined variable $pdo in /home/bigracom/bugraa.com/admin/admin.php on line 38
+[17-Sep-2024 21:06:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/bigracom/bugraa.com/admin/admin.php:30
+Stack trace:
+#0 /home/bigracom/bugraa.com/admin/admin.php(38): get_stored_password()
+#1 {main}
+  thrown in /home/bigracom/bugraa.com/admin/admin.php on line 30
+[17-Sep-2024 21:06:59 UTC] PHP Warning:  Undefined variable $pdo in /home/bigracom/bugraa.com/admin/admin.php on line 38
+[17-Sep-2024 21:06:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/bigracom/bugraa.com/admin/admin.php:30
+Stack trace:
+#0 /home/bigracom/bugraa.com/admin/admin.php(38): get_stored_password()
+#1 {main}
+  thrown in /home/bigracom/bugraa.com/admin/admin.php on line 30

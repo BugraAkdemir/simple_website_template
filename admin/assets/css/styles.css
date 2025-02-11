@@ -1,0 +1,140 @@
+/* Genel stil ayarları */
+*{
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+#cikisyap{
+    text-decoration: none;
+    color: white;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: green;
+    margin-bottom: 20px;
+}
+
+.success {
+    color: green;
+    margin-bottom: 20px;
+}
+
+.admin-container {
+    display: flex;
+    flex-wrap: wrap; /* Blok elemanların sarmalanmasını sağlar */
+    gap: 20px; /* Elemanlar arasında boşluk */
+}
+
+.admin-container > div {
+    flex: 1 1 100%; /* Her div'i tam genişlikte yapar */
+    min-width: 300px; /* Küçük ekranlarda uygun genişlik sağlar */
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    select {
+        padding: 8px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    .admin-container > div {
+        flex: 1 1 100%; /* Mobilde her özellik alt alta sıralanır */
+    }
+
+    .cikisyapd{
+        text-decoration: none;
+        color: white;
+    }
+}
